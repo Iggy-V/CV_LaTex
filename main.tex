@@ -1,7 +1,6 @@
 %-------------------------
 % Resume in Latex
-% Author : Aras Gungore
-% License : MIT
+% Author : Ignas Volcokas
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -159,8 +158,8 @@
       {Washington and Lee University
       % \normalfont{(Admission rate: 0.09\%)}
       }{Lexington, VA, USA}
-      {B.Sc. in Computer Science;   \textbf{GPA: 4.00/4.00}}{Sep 2021 \textbf{--} May 2025}
-      {B.A Degree in Economics; \textbf{GPA: 4.00/4.00}}{}
+      {Major: B.Sc Computer Science;   \textbf{GPA: 4.00/4.00}}{Sep 2021 \textbf{--} May 2025}
+      {2$^nd$ Major: B.A Degree in Economics; \textbf{GPA: 4.00/4.00}}{}
 
       {\textit{Cummilative} \textbf{GPA: 3.97/4.00}}{}
         \resumeSubHeadingListStart
@@ -214,7 +213,7 @@
       {Summer Research Scholar}{Lexington, VA, USA}
       {Washington and Lee University}{Jun 2023 \textbf{--} Aug 2023, Full-time}
         \resumeItemListStart
-            \resumeItem{10-week research experience. Project titled: Applying Genetic Algorithms to Generating Cost-Effective Test Cases for Web Applications. Supervised by {\color{blue}Prof. Dr. Sara Sprenkle}. Currently working towards a Conference Paper.}
+            \resumeItem{10-week research experience. Project titled: Applying Genetic Algorithms to Generating Cost-Effective Test Cases for Web Applications. Supervised by Prof. Dr. Sara Sprenkle. Currently working towards a Conference Paper.}
             \resumeItem{Implemented and Compared Hill Climbing, Simulated Annealing, Genetic and Greedy algorithms for automatic test case generation in Python. Worked at high-level of abstraction; generated, and analyzed data.  Libraries used: Pandas, Matplotlib, 
             SciPy, NumPy.}
         \resumeItemListEnd
@@ -223,8 +222,8 @@
       {Editorial Associate}{Lexington, VA, USA}
       {Washington and Lee University}{Jan 2022 \textbf{--} Present, Part-time}
         \resumeItemListStart
-            \resumeItem{Working for {\color{blue}Prof. Dr. Krzysztof Jasiewic} who was \textit{EEPS} journal's Head Editor.}
-            \resumeItem{Proofreading new issues of the Journal. Created a database with previous articles' information}
+            \resumeItem{Working for Prof. Dr. Krzysztof Jasiewic who was \textit{EEPS} journal's Head Editor.}
+            \resumeItem{Proofreading new issues of the Journal. Created a database with information from all previous published articles.}
         \resumeItemListEnd
 
     % \resumeSubheading
@@ -248,7 +247,7 @@
     \small{\item{
 
 
-        \textbf{HooHacks Hackathon 2$^{nd}$ Place}{in Education category. HooHacks is the biggest Hackathon in Virgnia. (Apr 2023)} \\ \vspace{3pt}
+        \textbf{HooHacks Hackathon 2$^{nd}$ Place}{ in Education category. HooHacks is the biggest Hackathon in Virgnia. (Apr 2023)} \\ \vspace{3pt}
 
         \textbf{Dean's List 2021-2022, 2022-2023:}{ Awarded to top 30\% full-time students for the given academic year.} \\ \vspace{3pt}
 
@@ -272,25 +271,64 @@
     \resumeSubHeadingListStart
       
       \resumeProjectHeading
-        {\textbf{Filters and Fractals} $|$ \emph{\href{https://github.com/arasgungore/filters-and-fractals}{\color{blue}GitHub}}}{}
+        {\textbf{EsyLearn} $|$ \emph{\href{https://github.com/Iggy-V/esyLearnHooHacks}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{A C project which implements a variety of image processing operations that manipulate the size, filter, brightness, contrast, saturation, and other properties of PPM images from scratch and recursive fractal generation functions to model popular fractals including Mandelbrot set, Julia set, Koch curve, Barnsley fern, and Sierpinski triangle.}
+            \resumeItem{EsyLearn is a project completed in HooHacks 2023 Hackathon by me and a peer. We used JavaScript, Python and CSS to create a website that served as a personal learning assistant. Once a question is asked outloud the website sends a request to ChatGPT model. Then the recieved answer is read outloud and also displayed in text. APIs used: Flask, SpeechRecognition, Recorderjs, OpenAI.}
+          \resumeItemListEnd
+      %
+      \newblock
+      %
+      \resumeProjectHeading
+        {\textbf{Rocket Mouse} $|$ \emph{\href{https://github.com/Iggy-V/rocketMouseIV}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{A infinite runner video game written in TypeScript that utilizes Node.js. I followed a tutorial to complete this project and went further by implementing my own feature - power ups. Utilized software development principles: single responsibility, modularity, and abstraction.}
           \resumeItemListEnd
       
       \resumeProjectHeading
-        {\textbf{Chess Bot} $|$ \emph{\href{https://github.com/arasgungore/chess-bot}{\color{blue}GitHub}}}{}
+        {\textbf{Automated Daily Email} $|$ \emph{\href{}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{A C++ project in which you can play chess against an AI with a specified decision tree depth that uses alpha-beta pruning algorithm to predict the optimal move. Aside from basic moves, this mini chess engine also implements chess rules such as castling, en passant, fifty-move rule, threefold repetition, and pawn promotion.}
+            \resumeItem{A python project that sends a daily email to me with a reminder to fill out a daily tracker form, sends news of the day, a picture of a dog and upcoming weather in selected locations. Introduced myself to cloud computing and deployed the project to AWS as a Lambda function.}
           \resumeItemListEnd
       
       \resumeProjectHeading
-        {\textbf{DS\&A Projects} $|$ \emph{\href{https://github.com/arasgungore/CMPE250-projects}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{Five Java projects that apply DS\&A concepts such as discrete-event simulation using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree, Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming to real-world problems.}
-          \resumeItemListEnd
-      
+      {\textbf{YouTube Video Downloader} $|$ \emph{\href{https://github.com/Iggy-V/YouTubeDownloader}{\color{blue}GitHub}}}{}
+        \resumeItemListStart
+          \resumeItem{A python a project that downloads all opened YouTube video links by leveraging PyAutoGUI and PyTube libraries. Great tool to prepare for travels where internet connection is scarce.}
+        \resumeItemListEnd
+
     \resumeSubHeadingListEnd
 
+\section{Extracurricular Activity}
+  \vspace{2pt}
+    \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {General Technology Society at Washington and Lee}{}
+    {Event Coordinator, Executive team}{2022 \textbf{--} Present}
+      \resumeItemListStart
+          \resumeItem{Bringing the community together through technology. Organzing and overseeing coding projects by students.}
+          \resumeItem{Organizing practice coding sessions for the student body, teaching people how to approach logical and technical questions. Topics addressed: Algorithms, Object-Oriented Programming, Design Practices. Organized around 8 sessions last term.}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+    {Amnesty International at Washington and Lee}{}
+    {Member, Executive team (2021-2022)}{2021 \textbf{--} Present}
+    
+      \resumeItemListStart
+          \resumeItem{Memeber of the Amnesty International Chapter. Took minutes, scheduled meetings, improved communications between members by sending out individual to-do lists.}
+          \resumeItem{As a member organized informational and fundraising events. Collected around \$5000 in donations for different relief organizations.}
+      \resumeItemListEnd
+    
+    \resumeSubheading
+    {Volleyball Club}{}
+    {Member}{2019 \textbf{--} Present}
+    
+      \resumeItemListStart
+          \resumeItem{Part of the university volleyball club team.}
+          \resumeItem{I was the captain and leading practices in my high school volleyball club my senior year.}
+      \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
 
 
 %----------- RELEVANT COURSEWORK -----------
